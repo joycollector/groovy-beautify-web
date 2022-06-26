@@ -1,8 +1,7 @@
 <script lang="ts">
 	import groovyBeautify from 'groovy-beautify';
 
-	let source: string = `{
-def bumpVersion(String target,    String version_type, Boolean reset =   false) {    def
+	let source: string = `def bumpVersion(String target,    String version_type, Boolean reset =   false) {    def
     versionMap =
     ['major':0, 'minor' : 1, 'patch':   2]
                 def versionArray = target.findAll(/\d+\.\d+\.\d+/)[0].tokenize('.')
@@ -16,8 +15,7 @@ def bumpVersion(String target,    String version_type, Boolean reset =   false) 
     } catch(       Exception e) {        println("Unrecognized version type \\"version_type\\" (should be major, minor or patch)")    }
     return             versionArray.join(                   '.'                       )
     }
-println(bumpVersion('1.2.3', 'minor', true))
-}`;
+    println(bumpVersion('1.2.3', 'minor', true))`;
 	$: target = groovyBeautify(source);
 </script>
 
