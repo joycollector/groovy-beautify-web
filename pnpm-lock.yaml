@@ -9,7 +9,7 @@ specifiers:
   eslint: ^8.18.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
-  groovy-beautify: ^0.0.8
+  groovy-beautify: ^0.0.11
   prettier: ^2.7.1
   prettier-plugin-svelte: ^2.7.0
   svelte: ^3.48.0
@@ -19,7 +19,7 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
-  groovy-beautify: registry.npmjs.org/groovy-beautify/0.0.8
+  groovy-beautify: registry.npmjs.org/groovy-beautify/0.0.11
 
 devDependencies:
   '@playwright/test': registry.npmjs.org/@playwright/test/1.22.2
@@ -1502,10 +1502,10 @@ packages:
     version: 4.2.10
     dev: true
 
-  registry.npmjs.org/groovy-beautify/0.0.8:
-    resolution: {integrity: sha512-exHc7nhx4r58V9fQn0TL1fCVD/nb4onnjDVUpMWiOj+xcRc5g6f62pf8KixNmbyVs/7YjYPvJ4K/u+4ZWnwcXw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/groovy-beautify/-/groovy-beautify-0.0.8.tgz}
+  registry.npmjs.org/groovy-beautify/0.0.11:
+    resolution: {integrity: sha512-bcKbqlL9PUdlfumNkRj+vNSQakOYPMqoVI2d2WMyZyLEMrBADvIMyYEc9XE7YerFwmvpafYL7Ez7PxKLKrkR2Q==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/groovy-beautify/-/groovy-beautify-0.0.11.tgz}
     name: groovy-beautify
-    version: 0.0.8
+    version: 0.0.11
     dev: false
 
   registry.npmjs.org/has-flag/4.0.0:
@@ -2834,7 +2834,7 @@ packages:
     name: wide-align
     version: 1.1.5
     dependencies:
-      string-width: registry.npmjs.org/string-width/1.0.2
+      string-width: registry.npmjs.org/string-width/4.2.3
     dev: true
 
   registry.npmjs.org/word-wrap/1.2.3:

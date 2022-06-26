@@ -32,6 +32,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"groovy-beautify": "^0.0.8"
+		"groovy-beautify": "^0.0.11"
 	}
 }
