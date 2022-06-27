@@ -20,6 +20,7 @@
 			automaticLayout: true,
 			contextmenu: false,
 			quickSuggestions: false,
+			scrollBeyondLastLine: false,
 			minimap: {
 				enabled: false
 			}
@@ -45,6 +46,7 @@
 	}
 	div {
 		border: 1px solid black;
+		overflow: hidden;
 	}
 	textarea {
 		border: none;
