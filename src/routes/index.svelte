@@ -1,5 +1,6 @@
 <script lang="ts">
 	import groovyBeautify from 'groovy-beautify';
+	import MonacoEditor from '../components/MonacoEditor.svelte';
 
 	let source: string = `def bumpVersion(String target,    String version_type, Boolean reset =   false) {    def
     versionMap =
@@ -29,8 +30,8 @@
 		</p>
 	</header>
 	<section>
-		<textarea class="source" bind:value={source} />
-		<textarea class="target" value={target} />
+		<MonacoEditor bind:value={source} />
+		<MonacoEditor bind:value={target} readOnly />
 	</section>
 </main>
 
@@ -49,9 +50,5 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 12px;
-	}
-	textarea {
-		width: 100%;
-		height: 100%;
 	}
 </style>

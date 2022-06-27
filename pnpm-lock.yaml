@@ -10,6 +10,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
   groovy-beautify: ^0.0.12
+  monaco-editor: ^0.33.0
   prettier: ^2.7.1
   prettier-plugin-svelte: ^2.7.0
   svelte: ^3.48.0
@@ -20,6 +21,7 @@ specifiers:
 
 dependencies:
   groovy-beautify: registry.npmjs.org/groovy-beautify/0.0.12
+  monaco-editor: registry.npmjs.org/monaco-editor/0.33.0
 
 devDependencies:
   '@playwright/test': registry.npmjs.org/@playwright/test/1.22.2
@@ -1841,6 +1843,12 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dev: true
+
+  registry.npmjs.org/monaco-editor/0.33.0:
+    resolution: {integrity: sha512-VcRWPSLIUEgQJQIE0pVT8FcGBIgFoxz7jtqctE+IiCxWugD0DwgyQBcZBhdSrdMC84eumoqMZsGl2GTreOzwqw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.33.0.tgz}
+    name: monaco-editor
+    version: 0.33.0
+    dev: false
 
   registry.npmjs.org/mri/1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/mri/-/mri-1.2.0.tgz}
