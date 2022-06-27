@@ -21,7 +21,12 @@
 
 <main>
 	<header>
-		<h1>Groovy Beautify</h1>
+		<h1>Groovy Code Beautifier/Prettyprinter/Formatter - Written in vanilla JavaScript</h1>
+		<p>
+			Available as npm package <a href="https://www.npmjs.com/package/groovy-beautify"
+				>groovy-beautify</a
+			>
+		</p>
 	</header>
 	<section>
 		<textarea class="source" bind:value={source} />
