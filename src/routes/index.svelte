@@ -5,7 +5,7 @@
 	let source: string = `def bumpVersion(String target,    String version_type, Boolean reset =   false) {    def
     versionMap =
     ['major':0, 'minor' : 1, 'patch':   2]
-                def versionArray = target.findAll(/\d+\.\d+\.\d+/)[0].tokenize('.')
+                def versionArray = target.findAll(/\\d+\\.\\d+\\.\\d+/)[0].tokenize('.')
             try
     {        def   index =     versionMap.get(version_type);
     versionArray[index] =versionArray[index].toInteger() + 1
