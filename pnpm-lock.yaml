@@ -9,7 +9,7 @@ specifiers:
   eslint: ^8.18.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
-  groovy-beautify: ^0.0.12
+  groovy-beautify: ^0.0.13
   monaco-editor: ^0.33.0
   prettier: ^2.7.1
   prettier-plugin-svelte: ^2.7.0
@@ -20,7 +20,7 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
-  groovy-beautify: registry.npmjs.org/groovy-beautify/0.0.12
+  groovy-beautify: registry.npmjs.org/groovy-beautify/0.0.13
   monaco-editor: registry.npmjs.org/monaco-editor/0.33.0
 
 devDependencies:
@@ -1504,10 +1504,10 @@ packages:
     version: 4.2.10
     dev: true
 
-  registry.npmjs.org/groovy-beautify/0.0.12:
-    resolution: {integrity: sha512-/pG2n3cpotp5gd+dqwBGANC30a0Rro7yciaxgvPy1LK2eZ0gDBxFthmJdjmVexPlXOTM/Une/M/baEDPZ/dG8A==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/groovy-beautify/-/groovy-beautify-0.0.12.tgz}
+  registry.npmjs.org/groovy-beautify/0.0.13:
+    resolution: {integrity: sha512-lSQKC44vX+2bQPBY2E/PD4JuSeIEa7A8U5K++ZRgPeld1vUMqm7NNmCym0/UjUVIZJNDrMND12Q9+xOkcaL0Bg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/groovy-beautify/-/groovy-beautify-0.0.13.tgz}
     name: groovy-beautify
-    version: 0.0.12
+    version: 0.0.13
     dev: false
 
   registry.npmjs.org/has-flag/4.0.0:
