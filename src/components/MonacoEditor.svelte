@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type monaco from 'monaco-editor';
 	import { onMount } from 'svelte';
+	import groovyLanguageMonarch from '../utils/groovyLanguageMonarch';
 
 	export let value: string;
 	export let readOnly: boolean = false;
@@ -13,9 +14,11 @@
 
 	onMount(async () => {
 		const monaco = await import('monaco-editor');
+		monaco.languages.register({ id: 'groovy' });
+		monaco.languages.setMonarchTokensProvider('groovy', groovyLanguageMonarch);
 		editor = monaco.editor.create(divElement, {
 			value,
-			language: 'javascript',
+			language: 'groovy',
 			readOnly,
 			automaticLayout: true,
 			contextmenu: false,
